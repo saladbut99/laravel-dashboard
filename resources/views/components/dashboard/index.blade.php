@@ -4,8 +4,6 @@
     $name = 'John Doe'
 @endphp
 
-
-
     {{-- Whole content flex nav and content page --}}
     {{-- use min-h-screen to cover the whole viewpont of the screen  --}}
     <div class="flex min-h-screen justify-start">

@@ -31,7 +31,8 @@
 
             $data['users'] = DB::table('users')->get();
            
-
+            
+            //inserting data code below:
             // $newuser = new UserSample;
  
             // $newuser->name = "Sample Send";

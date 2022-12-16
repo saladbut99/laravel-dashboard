@@ -1,0 +1,465 @@
+<div class="shadow-2xl content-center mt-20 mb-10 ml-5 mr-5 overflow-x-auto overflow-auto" style=" height: 400px;">
+                <table class="table-auto border-separate border-spacing-1 w-full  text-left">
+                    <thead class="text-left font-bold bg-tablecolor text-2xl mb">
+                        <tr>
+                            <th>User Id</th>
+                            <th>Name</th>
+                            <th>Lastname</th>
+                            <th>Status</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Norde</td>
+                            <td class="pt-5 pb-5">Sabadeli Airport</td>
+                            <td class="pt-5 pb-5">10/10/2017</td>
+                            <td class="pt-5 pb-5">5:06 am</td>
+                            <td class="pt-5 pb-5">$250.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="newstatusborder text-blue bg-new rounded-full ">New</div></td>
+                        </tr>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Cuberto</td>
+                            <td class="pt-5 pb-5">Saarbrucken Airport</td>
+                            <td class="pt-5 pb-5">25/11/2017</td>
+                            <td class="pt-5 pb-5">12:06 am</td>
+                            <td class="pt-5 pb-5">$550.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="reviewstatusborder text-review bg-reviewbg rounded-full ">Review</div></td>
+                        </tr>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Paperpillar</td>
+                            <td class="pt-5 pb-5">Sabha International Airport</td>
+                            <td class="pt-5 pb-5">13/05/2017</td>
+                            <td class="pt-5 pb-5">7:06 pm</td>
+                            <td class="pt-5 pb-5">$7050.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="holdstatusborder text-red bg-holdbg rounded-full ">Hold</div></td>
+                        </tr>
+                        
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Green Chameleon</td>
+                            <td class="pt-5 pb-5">Kotoka International Airport</td>
+                            <td class="pt-5 pb-5">20/02/2017</td>
+                            <td class="pt-5 pb-5">5:06 pm</td>
+                            <td class="pt-5 pb-5">$1250.00</td>
+                            <td class="pt-5 pb-5 text-center "><div class="statusborder text-green bg-bgpaid rounded-full ">Paid</div></td>
+                        </tr>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">UIB</td>
+                            <td class="pt-5 pb-5">Baeurfield Airport</td>
+                            <td class="pt-5 pb-5">10/05/2017</td>
+                            <td class="pt-5 pb-5">6:06 pm</td>
+                            <td class="pt-5 pb-5">$11250.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="statusborder text-green bg-bgpaid rounded-full ">Paid</div></td>
+                        </tr>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Radio Design</td>
+                            <td class="pt-5 pb-5">Capital International Airport</td>
+                            <td class="pt-5 pb-5">20/02/2017</td>
+                            <td class="pt-5 pb-5">8:06 pm</td>
+                            <td class="pt-5 pb-5">$258.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="reviewstatusborder text-review bg-reviewbg rounded-full ">Review</div></td>
+                        </tr>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Fireart Studio</td>
+                            <td class="pt-5 pb-5">Rafic Hariri International Airport</td>
+                            <td class="pt-5 pb-5">13/05/2017</td>
+                            <td class="pt-5 pb-5">2:06 pm</td>
+                            <td class="pt-5 pb-5">$5678.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="statusborder text-green bg-bgpaid rounded-full ">Paid</div></td>
+                        </tr>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Ramotion</td>
+                            <td class="pt-5 pb-5">Nikola Tesla Airport</td>
+                            <td class="pt-5 pb-5">10/10/2017</td>
+                            <td class="pt-5 pb-5">12:06 pm</td>
+                            <td class="pt-5 pb-5">$4570.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="holdstatusborder text-red bg-holdbg rounded-full ">Hold</div></td>
+                        </tr>
+                        <tr class="text-left text-s text-navgrey">
+                            <td class="pt-5 pb-5">Sochnik</td>
+                            <td class="pt-5 pb-5">MidAmerica St Louis Airport</td>
+                            <td class="pt-5 pb-5">30/10/2017</td>
+                            <td class="pt-5 pb-5">5:06 pm</td>
+                            <td class="pt-5 pb-5">$2570.00</td>
+                            <td class="pt-5 pb-5 text-center"><div class="holdstatusborder text-red bg-holdbg rounded-full ">Hold</div></td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+              </div>
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+ @vite('resources/css/app.css')
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+@php
+ $name = 'John Doe'
+@endphp
+ {{-- Whole content flex nav and content page --}}
+ {{-- use min-h-screen to cover the whole viewpont of the screen --}}
+ <div class="flex min-h-screen justify-start">
+
+ {{-- Navbar Tab --}}
+ 
+ <div class="w-60 hidden md:block shadow-lg bg-navbg" id="navBar">
+ 
+ <div class="content-center mt-20">
+ 
+ {{-- Image and Name --}}
+ <center>
+ <img src="https://salondesmaires-po.fr/wp-content/uploads/2015/04/speaker-3-v2.jpg" alt="Profile" class="imageborder rounded-full w-20 h-13">
+ </center>
+ <h1 class="text-center text-2xl font-bold pt-3">{{ $name }}</h1>
+ </div>
+
+ {{-- Navbar List Options --}}
+ <div class="content-center mt-10"> 
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10 ">
+ <span class="material-symbols-outlined align-middle">home</span>
+ </div> 
+ <div class="flex-auto w-20 "> 
+ <a href="#">Overviews</a> 
+ </div> 
+ </div>
+
+ <div class="flex pt-5 text-navgrey hover:text-iceblue text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">mail</span>
+ </div> 
+ <div class="flex-auto w-20"> 
+ <a href="#" class="align-right">Orders</a> 
+ </div> 
+ </div>
+
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">person</span>
+ </div> 
+ <div class="flex-auto w-20"> 
+ <a href="#" class="align-right">Customers</a> 
+ </div> 
+ </div>
+
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">settings</span>
+ </div> 
+ 
+ <div class="flex-auto w-20 hover:text-iceblue"> 
+ <a href="#" class="align-right">Settings</a> 
+ </div> 
+ </div>
+
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">logout</span>
+ </div> 
+ 
+ <div class="flex-auto w-20"> 
+ <a href="#" class="align-right">Log Out</a> 
+ </div> 
+ </div> 
+ </div> 
+ </div>
+
+ 
+
+ {{-- Div for site content --}}
+ 
+ <div class='h-full w-full'>
+
+ {{-- hidden will take effect when the screen is medium, collapsable sidebar --}}
+ <div class="flex flex-col block md:hidden p-4 bg-navbg shadow-lg">
+ <div class="flex flex-wrap">
+ <div class="flex-auto">
+ <button onclick="toggleButton()" id="open" style="display: block;">
+ <span class="material-symbols-outlined">
+ menu
+ </span>
+ </button> 
+ <button onclick="toggleButtonClose()" id="close" style="display: none;">
+ <span class="material-symbols-outlined">
+ menu
+ </span>
+ </button> 
+ </div>
+ <div class="flex-auto">
+ <h1 class="align-center font-bold text-right text-m">John Doe</h1>
+ </div>
+ </div>
+ <div class="flex-auto hidden" id="collapsenav">
+ <div class="content-center "> 
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10 ">
+ <span class="material-symbols-outlined align-middle">home</span>
+ </div> 
+ <div class="flex-auto w-20 "> 
+ <a href="#">Overviews</a> 
+ </div> 
+ </div>
+ 
+ <div class="flex pt-5 text-navgrey hover:text-iceblue text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">mail</span>
+ </div> 
+ <div class="flex-auto w-20"> 
+ <a href="#" class="align-right">Orders</a> 
+ </div> 
+ </div>
+ 
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">person</span>
+ </div> 
+ <div class="flex-auto w-20"> 
+ <a href="#" class="align-right">Customers</a> 
+ </div> 
+ </div>
+ 
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">settings</span>
+ </div> 
+ 
+ <div class="flex-auto w-20 hover:text-iceblue"> 
+ <a href="#" class="align-right">Settings</a> 
+ </div> 
+ </div>
+ 
+ <div class="flex pt-5 text-navgrey hover:text-iceblue">
+ <div class="flex-auto text-center w-10">
+ <span class="material-symbols-outlined align-middle">logout</span>
+ </div> 
+ 
+ <div class="flex-auto w-20"> 
+ <a href="#" class="align-right">Log Out</a> 
+ </div> 
+ </div> 
+ </div> 
+ </div>
+ 
+ 
+ </div>
+
+ {{-- Content Page Title --}}
+ <div class="mt-10 ml-5 mr-5" >
+ <div class="flex flex-wrap" style="font-size: 30px">
+ <div class="flex-auto">
+ Restaurant Orders
+ </div>
+ {{-- <div class="flex-auto text-right text-sm">
+ <input type="text" name="search" id="search_bar" placeholder="Search" style="border: 1px solid #00acee" class="rounded-full p-1"> 
+ </div> --}}
+ 
+ </div>
+
+ {{-- Content Page Info Tab --}}
+ {{-- use this if you want overflow for the class: flex flex-nowrap mt-10 ml-10 overflow-x-auto space-x-4 --}}
+ <div class="flex flex-wrap mt-9 ml-10 overflow-hidden overflow-x-auto gap-4">
+ <div class="flex-auto text-center rounded-xl bg-orderscolor shadow-inner">
+ <h3 class="text-3xl text-iceblue">27500</h3>
+ <p class="pt-4">Total Orders</p>
+ </div>
+ <div class="flex-auto text-center rounded-xl bg-orderscolor shadow-inner">
+ <h3 class="text-3xl text-green">4500</h3>
+ <p class="pt-4">Total Delivered</p>
+ </div>
+ <div class="flex-auto text-center rounded-xl bg-orderscolor shadow-inner">
+ <h3 class="text-3xl text-pink">1500</h3>
+ <p class="pt-4">Pending Orders</p>
+ </div>
+ <div class="flex-auto text-center rounded-xl bg-orderscolor shadow-inner">
+ <h3 class="text-3xl text-red">750</h3>
+ <p class="pt-4">Orders Hold</p>
+ </div>
+ <div class="flex-auto text-center align-center">
+ <button class="addbutton rounded-full p-2">Add New Order</button>
+ {{-- <a href="#" class="addbutton rounded-full p-4">Add New Order</a> --}}
+ </div>
+ </div>
+ 
+ {{-- Table of Orders--}}
+ <div class="shadow-2xl content-center mt-20 mb-10 ml-5 mr-5 overflow-x-auto overflow-auto" style=" height: 400px;">
+ <table class="table-auto border-separate border-spacing-1 w-full text-left">
+ <thead class="text-left font-bold bg-tablecolor text-2xl mb">
+ <tr>
+ <th>Company Name</th>
+ <th>Airport</th>
+ <th>Delivery Date</th>
+ <th>Delivery Date</th>
+ <th>Amount</th>
+ <th>Status</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Norde</td>
+ <td class="pt-5 pb-5">Sabadeli Airport</td>
+ <td class="pt-5 pb-5">10/10/2017</td>
+ <td class="pt-5 pb-5">5:06 am</td>
+ <td class="pt-5 pb-5">$250.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="newstatusborder text-blue bg-new rounded-full ">New</div></td>
+ </tr>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Cuberto</td>
+ <td class="pt-5 pb-5">Saarbrucken Airport</td>
+ <td class="pt-5 pb-5">25/11/2017</td>
+ <td class="pt-5 pb-5">12:06 am</td>
+ <td class="pt-5 pb-5">$550.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="reviewstatusborder text-review bg-reviewbg rounded-full ">Review</div></td>
+ </tr>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Paperpillar</td>
+ <td class="pt-5 pb-5">Sabha International Airport</td>
+ <td class="pt-5 pb-5">13/05/2017</td>
+ <td class="pt-5 pb-5">7:06 pm</td>
+ <td class="pt-5 pb-5">$7050.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="holdstatusborder text-red bg-holdbg rounded-full ">Hold</div></td>
+ </tr>
+ 
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Green Chameleon</td>
+ <td class="pt-5 pb-5">Kotoka International Airport</td>
+ <td class="pt-5 pb-5">20/02/2017</td>
+ <td class="pt-5 pb-5">5:06 pm</td>
+ <td class="pt-5 pb-5">$1250.00</td>
+ <td class="pt-5 pb-5 text-center "><div class="statusborder text-green bg-bgpaid rounded-full ">Paid</div></td>
+ </tr>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">UIB</td>
+ <td class="pt-5 pb-5">Baeurfield Airport</td>
+ <td class="pt-5 pb-5">10/05/2017</td>
+ <td class="pt-5 pb-5">6:06 pm</td>
+ <td class="pt-5 pb-5">$11250.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="statusborder text-green bg-bgpaid rounded-full ">Paid</div></td>
+ </tr>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Radio Design</td>
+ <td class="pt-5 pb-5">Capital International Airport</td>
+ <td class="pt-5 pb-5">20/02/2017</td>
+ <td class="pt-5 pb-5">8:06 pm</td>
+ <td class="pt-5 pb-5">$258.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="reviewstatusborder text-review bg-reviewbg rounded-full ">Review</div></td>
+ </tr>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Fireart Studio</td>
+ <td class="pt-5 pb-5">Rafic Hariri International Airport</td>
+ <td class="pt-5 pb-5">13/05/2017</td>
+ <td class="pt-5 pb-5">2:06 pm</td>
+ <td class="pt-5 pb-5">$5678.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="statusborder text-green bg-bgpaid rounded-full ">Paid</div></td>
+ </tr>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Ramotion</td>
+ <td class="pt-5 pb-5">Nikola Tesla Airport</td>
+ <td class="pt-5 pb-5">10/10/2017</td>
+ <td class="pt-5 pb-5">12:06 pm</td>
+ <td class="pt-5 pb-5">$4570.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="holdstatusborder text-red bg-holdbg rounded-full ">Hold</div></td>
+ </tr>
+ <tr class="text-left text-s text-navgrey">
+ <td class="pt-5 pb-5">Sochnik</td>
+ <td class="pt-5 pb-5">MidAmerica St Louis Airport</td>
+ <td class="pt-5 pb-5">30/10/2017</td>
+ <td class="pt-5 pb-5">5:06 pm</td>
+ <td class="pt-5 pb-5">$2570.00</td>
+ <td class="pt-5 pb-5 text-center"><div class="holdstatusborder text-red bg-holdbg rounded-full ">Hold</div></td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ </div>
+ </div>
+ 
+
+ </div>
+
+ 
+
+</body>
+</html>
+
+<script>
+ function toggleButton() {
+ const list = document.getElementById("collapsenav").classList;
+ list.add("block");
+ //list.add("absolute")
+ var element = document.getElementById("collapsenav");
+ element.classList.remove("hidden");
+
+ const openButton = document.getElementById("open");
+ openButton.style.display = "none";
+
+ const closeButton = document.getElementById("close");
+ closeButton.style.display = "block";
+
+ // var x = document.getElementById("collapse");
+ // if (x.style.display === "none") {
+ // const list = document.getElementById("collapse").classList;
+ // list.add("block");
+ // var element = document.getElementById("collapse");
+ // element.classList.remove("hidden");
+ // } else {
+ // x.style.display = "none";
+ // }
+}
+ function toggleButtonClose(){
+ const list = document.getElementById("collapsenav").classList;
+ list.add("hidden");
+ 
+ var element = document.getElementById("collapsenav");
+ element.classList.remove("block");
+
+ const openButton = document.getElementById("open");
+ openButton.style.display = "block";
+
+ const closeButton = document.getElementById("close");
+ closeButton.style.display = "none";
+ }
+</script>
+
+
+
+   // var x = document.getElementById("collapse");
+        // if (x.style.display === "none") {
+        //     const list = document.getElementById("collapse").classList;
+        //     list.add("block");
+        //     var element = document.getElementById("collapse");
+        //     element.classList.remove("hidden");
+        // } else {
+        //     x.style.display = "none";
+        // }
+
+
+          {{-- <div class="shadow-2xl content-center mt-20 mb-10 ml-5 mr-5 overflow-x-auto overflow-auto" style=" height: 400px;">
+                <table class="table-auto border-separate border-spacing-1 w-full  text-left">
+                    <thead class="text-left font-bold bg-tablecolor text-2xl mb">
+                        <tr>
+                            <th>User Id</th>
+                            <th>Name</th>
+                            <th>Lastname</th>
+                            <th>Status</th>    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach ($users as $users)
+                            <x-dashboard.content.table-content  :users="$users" />
+                        @endforeach 
+                    </tbody>
+                </table>
+              </div> --}}
+             

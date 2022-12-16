@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mukta:wght@400;600&family=Source+Sans+Pro:wght@300;400&family=Varela+Round&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav{
+    background-color: aquamarine;
+}
+
+.nava {
+    padding-top: 10%;
+    color: #363636;
+}
+
+.imageborder {
+    border: 3px solid #00acce;
+}
+
+.addbutton {
+    border: 3px solid #00acce;
+ 
+    color: #00acce;
+}
+
+.tableborder{
+    border: 1px solid #00acce;
+    
+}
+
+.statusborder{
+    border: 1px solid #13ce66;
+    padding: 4px;
+}
+
+.newstatusborder{
+    border: 1px solid #00acce;
+    padding: 4px;
+}
+
+.reviewstatusborder{
+    border: 1px solid #facc15;
+    padding: 4px;
+}
+
+.holdstatusborder{
+    border: 1px solid #991b1b;
+    padding: 4px;
+}
+
+

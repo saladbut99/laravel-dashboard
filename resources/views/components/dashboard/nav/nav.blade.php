@@ -21,7 +21,7 @@
                  </div>  
               </div>
 
-              <div class="flex pt-5 text-navgrey hover:text-iceblue text-iceblue">
+              <div class="flex pt-5 text-navgrey hover:text-iceblue text-blue">
                  <div class="flex-auto text-center w-10">
                      <span class="material-symbols-outlined align-middle">mail</span>
                  </div> 

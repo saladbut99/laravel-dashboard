@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ResourceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -18,5 +19,6 @@ use App\Http\Controllers\UserController;
 //     return view('welcome');
 // });
 
-Route::get('/', [UserController::class, 'show_index']);
+Route::get('/dashboard', [UserController::class, 'show_index']);
+Route::resource('sample', ResourceController::class);
 Route::get('/profile',[UserController::class, 'profile']);

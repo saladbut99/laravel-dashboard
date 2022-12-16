@@ -6,14 +6,16 @@ use Illuminate\View\Component;
 
 class Tab extends Component
 {
+
+    public $users;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($users)
     {
-        //
+        $this->users = $users;
     }
 
     /**

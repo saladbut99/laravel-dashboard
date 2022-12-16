@@ -6,7 +6,7 @@
 
 <div class="flex flex-wrap mt-9 ml-10 mr-5 overflow-hidden overflow-x-auto gap-4">
     <div class="flex-auto text-center rounded-xl bg-orderscolor shadow-inner">
-        <h3 class="text-3xl text-iceblue">27500</h3>
+        <h3 class="text-3xl text-iceblue">{{ $users->total() }}</h3>
         <p class="pt-4">Total Orders</p>
     </div>
     <div class="flex-auto text-center rounded-xl bg-orderscolor shadow-inner">

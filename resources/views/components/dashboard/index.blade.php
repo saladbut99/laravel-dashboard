@@ -4,6 +4,7 @@
     $name = 'John Doe'
 @endphp
 
+
     {{-- Whole content flex nav and content page --}}
     {{-- use min-h-screen to cover the whole viewpont of the screen  --}}
     <div class="flex min-h-screen justify-start">
@@ -20,12 +21,15 @@
            
             <div class="mt-10 ml-5 mr-5" >
             
-            {{-- Content Page Info Tab and Page Title--}}
-            <x-dashboard.content.title />
+                {{-- Content Page Info Tab and Page Title--}}
+                <x-dashboard.content.title :users="$users" />
 
-            {{-- Table of Orders--}}
-            @include('components.dashboard.sections.table2')
-
+                {{-- Table of Orders--}}
+                
+                @include('components.dashboard.sections.table2')
+                <div class="m-10 mb-15 text-navgrey">
+                    {{ $users->links() }}
+                </div>
             </div>
            
         </div>
@@ -33,36 +37,4 @@
   
 @extends('footer')
 
-
-
-
-
-<script>
-    function toggleButton() {
-        const list = document.getElementById("collapsenav").classList;
-        list.add("block");
-        //list.add("absolute")
-        var element = document.getElementById("collapsenav");
-        element.classList.remove("hidden");
-
-        const openButton = document.getElementById("open");
-        openButton.style.display = "none";
-
-        const closeButton = document.getElementById("close");
-        closeButton.style.display = "block";
-
-}
-    function toggleButtonClose(){
-        const list = document.getElementById("collapsenav").classList;
-        list.add("hidden");
-        
-        var element = document.getElementById("collapsenav");
-        element.classList.remove("block");
-
-        const openButton = document.getElementById("open");
-        openButton.style.display = "block";
-
-        const closeButton = document.getElementById("close");
-        closeButton.style.display = "none";
-    }
-</script>
+<script type="text/javascript" src="{{ asset('storage/js/script.js') }}"></script>

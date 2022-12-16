@@ -12,7 +12,7 @@
             //     'num' => 11, 
             // ];
         
-            $data['users'] = DB::table('users')->get();
+            $data['users'] = DB::table('users')->paginate(5);
             return view('components.dashboard.index',$data);
         }
 

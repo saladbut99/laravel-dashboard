@@ -15,9 +15,9 @@ use App\Http\Controllers\UserController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return redirect('/dashboard');
+});
 
 Route::get('/dashboard', [UserController::class, 'show_index']);
 Route::resource('sample', ResourceController::class);

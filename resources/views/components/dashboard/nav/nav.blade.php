@@ -35,7 +35,7 @@
                      <span class="material-symbols-outlined align-middle">person</span>
                  </div> 
                  <div class="flex-auto w-20">     
-                     <a href="#" class="align-right">Customers</a> 
+                     <a href="/profile" class="align-right">Customers</a> 
                  </div>  
               </div>
 

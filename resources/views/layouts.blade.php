@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
   @vite('resources/css/app.css')
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css">
+  <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
 </head>
 <title>Laravel App</title>
 <body>

@@ -14,8 +14,8 @@ class ResourceController extends Controller
      */
     public function index()
     {
-        
-        $data['users'] = DB::table('users')->get();
+        //->where('status','=','active') put where clause before paginate
+        $data['users'] = DB::table('users')->paginate(5);
         return view('components.dashboard.index',$data);
     }
 

@@ -23,4 +23,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::post('/postman', [UserController::class, 'postman']);
-Route::get('/json', [UserController::class, 'show_json']);
+Route::get('/users', [UserController::class, 'show_json']);

@@ -47,7 +47,7 @@
      
             // $newuser->save();
 
-            // return view('profile', $data);
+            //return view('profile', $data);
             return response()->json($data);
 
         }
@@ -128,8 +128,8 @@
         
         
         //Using API's and Postman
-        //**********************//
-        //**********************//
+        //*********************************************************************//
+        //*********************************************************************//
         public function show_json(){
 
             $data['products'] = DB::table('products')->get();

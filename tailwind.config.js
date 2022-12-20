@@ -27,8 +27,13 @@ module.exports = {
       'review': '#facc15',
       'reviewbg': '#fef9c3',
       'holdbg': '#fecaca',
-      'bgpaid': '#f0fdf4',
+      'bgpaid': '#facc15',
       'new': '#e0f2fe',
+      'white':'#f4f4f5',
+      'buttonbg': '#e0f2fe',
+      'update': '#d97706',
+      'black': '#0f172a',
+      'bgreen': '#ecfccb',
     },
     extend: {
       fontFamily: {

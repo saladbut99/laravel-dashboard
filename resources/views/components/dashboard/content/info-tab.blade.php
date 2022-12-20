@@ -17,7 +17,7 @@
         <p class="pt-4">Orders Hold</p>
     </div>
     <div class="flex-auto text-center align-center">
-        <button class="addbutton rounded-full p-2">Add New Order</button>
+        <button onclick="toggleModal()" class="addbutton rounded-full p-2" >Add New Order</button>
         {{-- <a href="#" class="addbutton rounded-full p-4">Add New Order</a> --}}
     </div>
 </div>

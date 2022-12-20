@@ -20,5 +20,8 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', [UserController::class, 'show_index']);
+Route::post('/add_product', [UserController::class, 'add_product']);
 Route::resource('sample', ResourceController::class);
 Route::get('/profile',[UserController::class, 'profile']);
+Route::match(['get', 'patch'],'/update/{id}', [UserController::class, 'update']);
+Route::delete('/delete/{id}',[UserController::class, 'delete']);

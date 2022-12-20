@@ -36,9 +36,21 @@
                                     {{ session()->get('message') }}
                                 </div>     
                         </div>
+                     
                     </center>
                 @endif
+                @if ($errors->any())
+                <center>
+                    <div class="flex justify-center mt-20 mb-0 p-5 rounded-full w-1/2 " style="border: 2px solid red">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li class="text-red">{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </center>
                 
+            @endif
 
                 
                 {{-- Table of Orders--}}
@@ -55,13 +67,13 @@
 @extends('footer')
 
 <script type="text/javascript" src="{{ asset('storage/js/script.js') }}"></script>
-{{-- <script>
-    $('.delete-user').click(function(e){
-        e.preventDefault() // Don't post the form, unless confirmed
-        if (confirm('Are you sure?')) {
-            // Post the form
-            $(e.target).closest('form').submit() // Post the surrounding form
+<script>
+    function doconfirm()
+    {
+        job=confirm("Are you sure to delete the question permanently?");
+        if(job!=true)
+        {
+            return false;
         }
-    });
-   
-</script> --}}
+    }
+    </script>

@@ -47,17 +47,24 @@
                     </td>
                     <td class="pt-5 pb-5 text-center">
                         
-                        <a href="/update/{{ $product->product_id }}" class="text-update rounded-lg " title="Update">
-                            <span class="material-symbols-outlined">
-                                update
-                            </span>
-                        </a>
-                        <br>
-                        <form action="/delete/{{ $product->product_id }}" method="post">
-                            <input class="btn btn-default" type="submit" value="Delete"  />
-                            @method('delete')
-                            @csrf
-                        </form>
+
+                        <div class="flex flex-col  space-y-4">
+
+                            <div class="flex-auto">
+                                <a href="/update/{{ $product->product_id }}" class="text-update rounded-lg p-1 w-1/2" style="border: 1px solid #d97706" title="Update">
+                                    Update
+                                </a>
+                            </div>
+                            <div class="flex-auto">
+                                <form action="/delete/{{ $product->product_id }}" method="post">
+                                    <input style="border: 1px solid red" class="text-red rounded-md p-1 w-1/2 cursor-pointer	" type="submit" value="Delete"  onclick="return doconfirm()"/>
+                                    @method('delete')
+                                    @csrf
+                                </form>
+                            </div>
+
+                        </div>
+
                     </td>
                 </tr>
             @endforeach

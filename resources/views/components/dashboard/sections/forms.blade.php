@@ -12,12 +12,13 @@
                     </h1>
                 </div>  
                 <div class="flex-auto m-1 w-50 text-left mt-5">
+                    
                     <form action="add_product" method="POST" class="text-center">
                         @csrf
                         <div>
                             <label for="product_name" class="text-left mb-10 font-bold" style="font-size:18px;">Product Name</label>
                             <br>
-                            <input class="w-2/3 rounded-lg  " type="text" name="product_name" id="product_name" style="border: 2px solid #00acee" required>
+                            <input value="{{ old('product_name') }}" class="w-2/3 rounded-lg  " type="text" name="product_name" id="product_name" style="border: 2px solid #00acee" required>
                         </div>
                         <div>
                             <br>
@@ -36,9 +37,9 @@
                             <label for="status" class="font-bold" style="font-size:18px;">Status</label>
                             <br>
                             <select class="w-2/3 rounded-lg " name="status" id="status" style="border: 2px solid #00acee">
-                                <option value="delivered">Delivered</option>
-                                <option value="pending">Pending</option>
-                                <option value="hold">Hold</option>
+                                <option value="DELIVERED">Delivered</option>
+                                <option value="PEDNING">Pending</option>
+                                <option value="HOLD">Hold</option>
                             </select>
                             <br>
                     </div>
